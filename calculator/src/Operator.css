@@ -1,0 +1,22 @@
+.operators{
+    height: 5rem;
+    display: flex;
+    
+}
+
+.operator{
+    height: 100%;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+    border-right: 1px solid rgb(146, 210, 212);
+}
+
+.operator:hover{
+    background-color: rgb(77, 76, 75);
+    color: white;
+}

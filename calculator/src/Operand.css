@@ -1,0 +1,25 @@
+.keypad{
+    height: 18rem;
+    border-bottom: 1px solid rgb(146, 210, 212);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.number{
+    height: 4rem;
+    margin: 2px;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    align-self: center;
+    text-align: center;
+    border: 1px solid rgb(146, 210, 212);
+}
+
+.number:hover{
+    background-color: rgb(77, 76, 75);
+    color: white;
+}
